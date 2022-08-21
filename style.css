@@ -1,0 +1,76 @@
+body {
+    margin-left: 50px;
+}
+.navbar,
+.Round1,
+.QuarterFinals,
+.SemiFinals,
+.Final {
+    display: flex;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+}
+
+.header p {
+    flex: 1;
+    float: left;
+    margin: auto;
+    text-align: center;
+    padding: 14px 16px;
+    padding-right: 170px;
+}
+
+.Round1 .block {
+    margin-top: 100px;
+}
+
+.QuarterFinals .block {
+    margin-top: 170px;
+}
+
+.SemiFinals .block {
+    margin-top: 325px;
+}
+
+.Final .block {
+    margin-top: 600px;
+}
+
+.block {
+    display: flex;
+}
+
+.block {
+    margin: 25px;
+    padding: 0%;
+    width: 180px;
+    height: 40px;
+    border: 2px solid black;
+
+}
+
+.block p {
+    margin: auto;
+
+}
+
+.players {
+    flex: 1;
+    text-align: end;
+    padding: 1px;
+}
+
+.score {
+    border: 1px solid blue;
+    width: 20px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
